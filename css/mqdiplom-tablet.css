@@ -1,0 +1,191 @@
+@media (min-width: 641px) and (max-width: 1200px) {
+	.header {
+		background-image: url(../images/banner-bg-tablet.jpg);
+	}
+
+	.header-nav-menu {
+		padding: 50px 35px 0 35px;
+	}
+
+	.header-nav-items {
+		display: none;
+	}
+
+	.burger-nav {
+		display: block;
+	}
+
+	.header-title {
+		font-size: 4rem;
+		line-height: 5.5rem;
+
+		padding-bottom: 120px;
+
+		width: 611px;
+	}
+
+
+
+
+
+	.section-title {
+		font-size: 1.8rem;
+	}
+
+	.trends {
+		margin-top: 50px;
+	}
+
+	.all-trends {
+		flex-wrap: wrap;
+	}
+
+	.trend {
+		width: 49.6%;
+		height: 250px;
+
+		margin-right: 0px;
+	}
+
+	.trend:nth-child(odd) {
+		margin-right: calc(50% - 49.6%)
+	}
+
+	.last-trend {
+		margin-top: 4px;
+	}
+
+	.trends-information {
+	  bottom: 10px;
+	}	
+	.trends-text {
+	  width: 290px;
+	}	
+	.trends-title {
+	  font-size: 1.7rem;
+	}
+
+
+	
+
+
+	.content-skin {
+		margin-right: 35px;
+		margin-left: 35px;
+	}
+
+
+	.content {
+		margin-top: 50px;
+
+		width: 100%;
+	}
+
+	.main-content {
+		width: 100%;
+
+		margin-right: 40px;
+	}
+
+	.post {
+		flex-wrap: wrap;
+		width: 100%;
+
+		margin-bottom: 45px;
+		border-bottom: 4px solid #eeeeee;
+	}
+
+	.post:last-child {
+		border: none;
+	}
+
+	.post-img {
+	  width: 100%;
+	}
+
+	
+	.post-content {
+		margin-top: 15px;
+
+		width: 100%;
+	}
+
+	.post-title {
+		font-size: 1.7rem;
+		line-height: 2.2rem;
+
+		margin-top: 15px;
+	}
+
+	.post-information {
+		margin-top: 40px;
+	}
+
+	.post-text {
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+
+
+	.shop {
+		margin-top: 50px;
+	}
+
+	.products {
+		max-width: 695px;
+
+		flex-wrap: wrap;
+
+	}
+
+	.product {
+		max-width: 335px;
+
+		margin-bottom: 20px;
+	}
+
+	.product:nth-child(odd) {
+		margin-right: 25px;
+	}
+
+	.product-information {
+		max-width: 290px;
+	}
+
+	.bottom-product {
+		margin-bottom: 0px;
+	}
+
+
+
+
+
+	.footer {
+		margin-top: 50px;
+	}
+
+	.socials {
+		margin-right: 35px;
+  		margin-left: 35px;
+	}
+
+	.footer-copyrights {
+		margin-top: 50px;
+	}
+}
+
+
+@media (max-width: 765px) and (min-width: 641px) {
+	.products {
+		justify-content: center;
+	}
+
+	.product:nth-child(odd) {
+		margin-left: 25px;
+	}
+}
+
+
+
+
